@@ -17,7 +17,7 @@ int main(int argc,char*argv[]){
 	a=1;b=2;
 	a=a+b-(b=a);
 	cout<<"a="<<a<<" b="<<b<<endl;
-	//第四种位运算
+	//第四种位运算（两数不能相等，不然^为0）
 	a=1;b=2;
 	a=a^b;
 	b=a^b;
